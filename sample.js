@@ -1,3 +1,1 @@
-function onClickButton() {
-    console.log("on click!!!!");
-}
+alert("Hello javascript");
