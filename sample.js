@@ -5,5 +5,6 @@ function passCountMessageToNative() {
 }
 
 window.countFromNative = function(number) {
-    alert("got count from native ${number}");
+    var divTag = document.getElementById("native_count");
+    divTag.innerText = number;
 }
