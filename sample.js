@@ -4,7 +4,6 @@ function passCountMessageToNative() {
     window.webkit.messageHandlers.count.postMessage(count);
 }
 
-window.countFromNative = function(number) {
-    var divTag = document.getElementById("native_count");
-    divTag.innerText = number;
+function increment(number) {
+    return number + 1
 }
