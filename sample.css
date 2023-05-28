@@ -1,13 +1,17 @@
-.block {
-    color: #fff;
-    text-align: center;
-    width: 1000px;
-    background: #000;
-    margin: 0 auto;
-    padding: 10px 20px;
-    box-sizing: border-box;
-  }
-  
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagramLink {
+
+}
+
+.debugItems {
+  position: absolute;
+  bottom: 10px;
+}
+
   @media (max-width: 768px) {
   /* スマホ専用のCSSを書く場所 */
   
