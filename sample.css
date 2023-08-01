@@ -2,11 +2,6 @@
   display: flex;
   flex-direction: column;
 }
-
-.instagramLink {
-
-}
-
 .debugItems {
   position: absolute;
   bottom: 10px;
