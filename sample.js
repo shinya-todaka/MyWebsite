@@ -9,7 +9,10 @@ function increment(number) {
 }
 
 var showPasswordButton = document.getElementById("toggleShowPasswordButton");
-showPasswordButton.addEventListener("click", togglePasswordVisibility);
+
+if (showPasswordButton) {
+    showPasswordButton.addEventListener("click", togglePasswordVisibility);
+}
 
 function togglePasswordVisibility() {
   var passwordInput = document.getElementById("passwordInput");
