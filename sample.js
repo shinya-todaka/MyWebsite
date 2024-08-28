@@ -15,6 +15,7 @@ if (showPasswordButton) {
 }
 
 function togglePasswordVisibility() {
+  console.log("tapped toggle password visibility button");
   var passwordInput = document.getElementById("passwordInput");
   if (passwordInput.type === "password") {
     passwordInput.type = "text";
