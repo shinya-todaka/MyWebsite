@@ -25,3 +25,7 @@ function togglePasswordVisibility() {
     showPasswordButton.textContent = "表示";
   }
 }
+
+function debug() {
+  console.log("debug!");
+}
