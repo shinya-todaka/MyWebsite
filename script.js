@@ -14,6 +14,10 @@ if (showPasswordButton) {
     showPasswordButton.addEventListener("click", togglePasswordVisibility);
 }
 
+function debugAlert() {
+  alert("debug");
+}
+
 function togglePasswordVisibility() {
   console.log("tapped toggle password visibility button");
   var passwordInput = document.getElementById("passwordInput");
